@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Move jar over
-mv ./swag-bot/build/libs/swag-bot.jar ../MicroRTS/lib/bots/
+echo "FIX THIS FOR YOUR OWN SETUP"
+cp ./swag-bot/build/libs/swag-bot.jar ../MicroRTS/lib/bots/
 
 # Compile MicroRTS      ! Use your own path to microrts !
 # javac -cp "lib/*:src" -d bin $(find . -name "*.java") # compile source files
