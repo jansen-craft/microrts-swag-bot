@@ -1,6 +1,8 @@
 # SwagEpic
 
-Based on template from Brady Phelps and Krerkkiat Chusap
+Based on template Krerkkiat Chusap and Brady Phelps
+
+Also heavily based on Mayari
 
 ### Dependencies
 Java
@@ -12,27 +14,13 @@ Ant
 ./gradlew build
 ```
 
-## Creating a JAR file
+Jar file @ `swag-bot/build/libs/swag-bot.jar`
+
+## How to use bot
+
+move bot's jar file into MicroRTS folder
 
 ```console
-./gradlew jar
-```
-
-then the jar file will be in `swag-bot/build/libs/`.
-
-## Compile MicroRTS and build its jar file
-
-```console
-javac -cp "lib/*:src" -d bin $(find . -name "*.java") # compile source files
-cd bin
-find ../lib -name "*.jar" | xargs -n 1 jar xvf # extract the contents of the JAR dependencies
-jar cvf microrts.jar $(find . -name '*.class' -type f) # create a single JAR file with sources and dependencies
-```
-
-or if you have `ant` installed.
-
-```console
+cd <micro-rts-folder>
 ant export_jar
 ```
-
-in the MicroRTS project folder.
