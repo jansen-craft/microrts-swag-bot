@@ -1,8 +1,6 @@
 # SwagEpic
 
-Based on template Krerkkiat Chusap and Brady Phelps
-
-Also heavily based on Mayari
+Based on Mayari template made by Krerkkiat Chusap and Brady Phelps
 
 ### Dependencies
 Java
