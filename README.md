@@ -18,7 +18,4 @@ Jar file @ `swag-bot/build/libs/swag-bot.jar`
 
 move bot's jar file into MicroRTS folder
 
-```console
-cd <micro-rts-folder>
-ant export_jar
-```
+Run micro-rts-tournament
