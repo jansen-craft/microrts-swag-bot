@@ -1273,13 +1273,7 @@ public class SwagBot extends AIWithComputationBudget {
         else
             freeBlocks(_workers);
         
-        goCombat(_heavies, 30);
         goCombat(_archers, 15);
-        goCombat(_lights, 5);
-        
-        //if (_pgs.getWidth() >= 9)
-            
-        
         
         _pa.fillWithNones(gs, player, 1);
         return _pa;
