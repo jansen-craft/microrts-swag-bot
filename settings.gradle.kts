@@ -10,5 +10,5 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
 }
 
-rootProject.name = "BotBot"
-include("brady-bot")
+rootProject.name = "SwagBot"
+include("swag-bot")
